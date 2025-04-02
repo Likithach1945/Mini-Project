@@ -1,0 +1,5158 @@
+[
+    {
+      "id": "course-1",
+      "title": "Full Stack Web Development",
+      "description": "Learn frontend and backend development with modern technologies.",
+      "chapters": [
+        {
+          "chapterId": "ch-1",
+          "title": "Introduction to Web Development",
+          "unlocked": true,
+          "modules": [
+            {
+              "moduleId": "mod-1-1",
+              "title": "HTML Basics",
+              "content": "Introduction to HTML and its basic structure.",
+              "unlocked": true,
+              "questions": [
+                {
+                  "questionId": "q-1-1",
+                  "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Text Markup Language",
+                  "High Tech Machine Learning",
+                  "Hyper Transfer Markup Language"
+                ],
+                "correctAnswer": "Hyper Text Markup Language",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-2",
+                "question": "Which tag is used for paragraphs?",
+                "options": [
+                  "<p>",
+                  "<div>",
+                  "<span>"
+                ],
+                "correctAnswer": "<p>",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-3",
+                "question": "What is the purpose of the <title> tag?",
+                "options": [
+                  "Defines the document's title",
+                  "Displays an image",
+                  "Links to a CSS file"
+                ],
+                "correctAnswer": "Defines the document's title",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-2",
+            "title": "CSS Basics",
+            "content": "Introduction to CSS styling and selectors.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-4",
+                "question": "What does CSS stand for?",
+                "options": [
+                  "Cascading Style Sheets",
+                  "Creative Styling System",
+                  "Custom Sheet Styles"
+                ],
+                "correctAnswer": "Cascading Style Sheets",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-5",
+                "question": "Which property changes text color?",
+                "options": [
+                  "color",
+                  "text-style",
+                  "font-color"
+                ],
+                "correctAnswer": "color",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-6",
+                "question": "Which selector targets all elements?",
+                "options": [
+                  "*",
+                  "#",
+                  "."
+                ],
+                "correctAnswer": "*",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-3",
+            "title": "JavaScript Basics",
+            "content": "Introduction to JavaScript variables, data types, and basic functions.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-7",
+                "question": "Which keyword declares a variable?",
+                "options": [
+                  "var",
+                  "declare",
+                  "define"
+                ],
+                "correctAnswer": "var",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-8",
+                "question": "Which symbol is used for comments in JavaScript?",
+                "options": [
+                  "//",
+                  "<!-- -->",
+                  "#"
+                ],
+                "correctAnswer": "//",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-9",
+                "question": "What does `typeof null` return?",
+                "options": [
+                  "null",
+                  "object",
+                  "undefined"
+                ],
+                "correctAnswer": "object",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-4",
+            "title": "DOM Manipulation",
+            "content": "Introduction to modifying HTML elements using JavaScript.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-10",
+                "question": "Which method selects an element by ID?",
+                "options": [
+                  "getElementById",
+                  "querySelector",
+                  "getElementsByClassName"
+                ],
+                "correctAnswer": "getElementById",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-11",
+                "question": "Which property changes an element’s inner text?",
+                "options": [
+                  "innerText",
+                  "textValue",
+                  "contentText"
+                ],
+                "correctAnswer": "innerText",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-12",
+                "question": "Which event is triggered when a button is clicked?",
+                "options": [
+                  "onchange",
+                  "onclick",
+                  "onhover"
+                ],
+                "correctAnswer": "onclick",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-1-1",
+              "question": "What is the full form of HTML?",
+              "options": [
+                "Hyper Text Markup Language",
+                "Hyper Transfer Markup Language",
+                "High Tech Machine Learning"
+              ],
+              "correctAnswer": "Hyper Text Markup Language",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-2",
+              "question": "Which CSS property changes background color?",
+              "options": [
+                "background-color",
+                "color",
+                "bg-color"
+              ],
+              "correctAnswer": "background-color",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-3",
+              "question": "Which JavaScript method adds an element to an array?",
+              "options": [
+                "push()",
+                "add()",
+                "append()"
+              ],
+              "correctAnswer": "push()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-4",
+              "question": "What is the default flex direction?",
+              "options": [
+                "row",
+                "column",
+                "inherit"
+              ],
+              "correctAnswer": "row",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-5",
+              "question": "Which HTML tag is used for linking CSS?",
+              "options": [
+                "<link>",
+                "<style>",
+                "<css>"
+              ],
+              "correctAnswer": "<link>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-6",
+              "question": "What is the output of `2 + '2'` in JavaScript?",
+              "options": [
+                "4",
+                "22",
+                "Error"
+              ],
+              "correctAnswer": "22",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-7",
+              "question": "Which HTTP method is used for data submission?",
+              "options": [
+                "POST",
+                "GET",
+                "DELETE"
+              ],
+              "correctAnswer": "POST",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-8",
+              "question": "What does JSON stand for?",
+              "options": [
+                "JavaScript Object Notation",
+                "Java Source Object Notation",
+                "Java Syntax Oriented Notation"
+              ],
+              "correctAnswer": "JavaScript Object Notation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-9",
+              "question": "Which tag is used for creating tables?",
+              "options": [
+                "<table>",
+                "<tr>",
+                "<td>"
+              ],
+              "correctAnswer": "<table>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-10",
+              "question": "Which database is NoSQL?",
+              "options": [
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL"
+              ],
+              "correctAnswer": "MongoDB",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-2",
+        "title": "Advanced Frontend Development",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-2-1",
+            "title": "CSS Grid",
+            "content": "Learn how to use CSS Grid to create powerful and responsive layouts.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-1",
+                "question": "Which CSS property enables the use of CSS Grid?",
+                "options": [
+                  "display: flex;",
+                  "display: grid;",
+                  "grid-template"
+                ],
+                "correctAnswer": "display: grid;",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-2",
+                "question": "Which property defines the number of columns in a grid?",
+                "options": [
+                  "grid-rows",
+                  "grid-template-columns",
+                  "column-width"
+                ],
+                "correctAnswer": "grid-template-columns",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-3",
+                "question": "What is the default value of 'grid-auto-flow'?",
+                "options": [
+                  "row",
+                  "column",
+                  "dense"
+                ],
+                "correctAnswer": "row",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-2",
+            "title": "CSS Flexbox",
+            "content": "Understand Flexbox for arranging elements efficiently in a row or column.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-4",
+                "question": "Which property is used to align items in a flex container?",
+                "options": [
+                  "justify-content",
+                  "align-items",
+                  "flex-wrap"
+                ],
+                "correctAnswer": "align-items",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-5",
+                "question": "Which of the following is NOT a valid Flexbox property?",
+                "options": [
+                  "flex-grow",
+                  "grid-gap",
+                  "order"
+                ],
+                "correctAnswer": "grid-gap",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-6",
+                "question": "What does 'flex-wrap: wrap;' do?",
+                "options": [
+                  "Keeps all items in a single line",
+                  "Moves items to the next row if needed",
+                  "Aligns items to the start"
+                ],
+                "correctAnswer": "Moves items to the next row if needed",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-3",
+            "title": "Responsive Design",
+            "content": "Learn how to create layouts that adapt to different screen sizes.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-7",
+                "question": "Which unit is best for responsive typography?",
+                "options": [
+                  "px",
+                  "em",
+                  "rem"
+                ],
+                "correctAnswer": "rem",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-8",
+                "question": "Which CSS property makes an element adjust to different screen sizes?",
+                "options": [
+                  "width",
+                  "max-width",
+                  "height"
+                ],
+                "correctAnswer": "max-width",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-9",
+                "question": "Which media query condition targets screens smaller than 768px?",
+                "options": [
+                  "@media (max-width: 768px)",
+                  "@media (min-width: 768px)",
+                  "@media (screen-width: 768px)"
+                ],
+                "correctAnswer": "@media (max-width: 768px)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-4",
+            "title": "CSS Animations",
+            "content": "Explore CSS animations for adding motion to web elements.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-10",
+                "question": "Which property defines an animation?",
+                "options": [
+                  "@keyframes",
+                  "animation-name",
+                  "transition"
+                ],
+                "correctAnswer": "animation-name",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-11",
+                "question": "Which property controls the duration of an animation?",
+                "options": [
+                  "animation-delay",
+                  "animation-timing-function",
+                  "animation-duration"
+                ],
+                "correctAnswer": "animation-duration",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-12",
+                "question": "What value makes an animation repeat infinitely?",
+                "options": [
+                  "repeat",
+                  "loop",
+                  "infinite"
+                ],
+                "correctAnswer": "infinite",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-2-1",
+              "question": "Which property sets a flexible grid layout?",
+              "options": [
+                "display: block;",
+                "display: flex;",
+                "display: grid;"
+              ],
+              "correctAnswer": "display: grid;",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-2",
+              "question": "Which flexbox property defines spacing between items?",
+              "options": [
+                "gap",
+                "space-between",
+                "margin"
+              ],
+              "correctAnswer": "gap",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-3",
+              "question": "What is the purpose of media queries?",
+              "options": [
+                "Changing colors",
+                "Applying different styles for different devices",
+                "Modifying JavaScript functions"
+              ],
+              "correctAnswer": "Applying different styles for different devices",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-4",
+              "question": "Which unit is relative to the root font size?",
+              "options": [
+                "px",
+                "rem",
+                "em"
+              ],
+              "correctAnswer": "rem",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-5",
+              "question": "Which CSS property is used for animations?",
+              "options": [
+                "transition",
+                "animation",
+                "keyframes"
+              ],
+              "correctAnswer": "animation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-6",
+              "question": "Which function is used to delay an animation?",
+              "options": [
+                "animation-duration",
+                "animation-delay",
+                "animation-iteration"
+              ],
+              "correctAnswer": "animation-delay",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-7",
+              "question": "Which property is NOT part of flexbox?",
+              "options": [
+                "justify-content",
+                "align-items",
+                "grid-template-rows"
+              ],
+              "correctAnswer": "grid-template-rows",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-8",
+              "question": "Which property controls the speed curve of an animation?",
+              "options": [
+                "animation-speed",
+                "animation-timing-function",
+                "animation-iteration"
+              ],
+              "correctAnswer": "animation-timing-function",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-9",
+              "question": "Which flexbox property sets the direction of items?",
+              "options": [
+                "flex-flow",
+                "flex-direction",
+                "align-items"
+              ],
+              "correctAnswer": "flex-direction",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-10",
+              "question": "Which CSS feature allows a webpage to be viewed on different devices?",
+              "options": [
+                "Flexbox",
+                "Responsive Design",
+                "Transitions"
+              ],
+              "correctAnswer": "Responsive Design",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-3",
+        "title": "JavaScript & ES6+ Features",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-3-1",
+            "title": "JavaScript Functions",
+            "content": "Learn about functions, function expressions, and arrow functions in JavaScript.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-1",
+                "question": "Which keyword is used to define a function in JavaScript?",
+                "options": [
+                  "func",
+                  "function",
+                  "define"
+                ],
+                "correctAnswer": "function",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-2",
+                "question": "What is an arrow function?",
+                "options": [
+                  "A function without a name",
+                  "A function defined with '=>'",
+                  "A function that executes automatically"
+                ],
+                "correctAnswer": "A function defined with '=>'",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-3",
+                "question": "Which statement correctly calls a function named 'myFunction'?",
+                "options": [
+                  "call myFunction;",
+                  "myFunction();",
+                  "execute myFunction;"
+                ],
+                "correctAnswer": "myFunction();",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-2",
+            "title": "Async/Await in JavaScript",
+            "content": "Understand asynchronous programming using async/await.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-4",
+                "question": "Which keyword is used to define an asynchronous function?",
+                "options": [
+                  "async",
+                  "await",
+                  "promise"
+                ],
+                "correctAnswer": "async",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-5",
+                "question": "Which statement is correct about 'await'?",
+                "options": [
+                  "It can only be used inside an async function",
+                  "It makes a function synchronous",
+                  "It waits for all promises to resolve"
+                ],
+                "correctAnswer": "It can only be used inside an async function",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-6",
+                "question": "What does 'await fetch()' return?",
+                "options": [
+                  "A JSON object",
+                  "A promise",
+                  "A resolved response"
+                ],
+                "correctAnswer": "A promise",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-3",
+            "title": "JavaScript Promises",
+            "content": "Learn how JavaScript Promises work for handling asynchronous operations.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-7",
+                "question": "Which states does a JavaScript Promise have?",
+                "options": [
+                  "Pending, Fulfilled, Rejected",
+                  "Waiting, Resolved, Rejected",
+                  "Start, Complete, Fail"
+                ],
+                "correctAnswer": "Pending, Fulfilled, Rejected",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-8",
+                "question": "Which method is used to handle a fulfilled Promise?",
+                "options": [
+                  ".then()",
+                  ".catch()",
+                  ".finally()"
+                ],
+                "correctAnswer": ".then()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-9",
+                "question": "What does '.catch()' do in a Promise?",
+                "options": [
+                  "Handles resolved values",
+                  "Handles errors",
+                  "Executes the next promise"
+                ],
+                "correctAnswer": "Handles errors",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-4",
+            "title": "JavaScript Modules",
+            "content": "Explore ES6 Modules and how to import/export JavaScript code.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-10",
+                "question": "Which keyword is used to export a module in JavaScript?",
+                "options": [
+                  "export",
+                  "module.exports",
+                  "export default"
+                ],
+                "correctAnswer": "export",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-11",
+                "question": "How do you import a named export from a module?",
+                "options": [
+                  "import myFunc from './module.js';",
+                  "import { myFunc } from './module.js';",
+                  "require('./module.js');"
+                ],
+                "correctAnswer": "import { myFunc } from './module.js';",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-12",
+                "question": "Which file extension is commonly used for JavaScript modules?",
+                "options": [
+                  ".mjs",
+                  ".jsx",
+                  ".es6"
+                ],
+                "correctAnswer": ".mjs",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-3-1",
+              "question": "Which function type does not have its own 'this' keyword?",
+              "options": [
+                "Arrow function",
+                "Named function",
+                "Anonymous function"
+              ],
+              "correctAnswer": "Arrow function",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-2",
+              "question": "Which method handles errors in a Promise?",
+              "options": [
+                ".resolve()",
+                ".catch()",
+                ".finally()"
+              ],
+              "correctAnswer": ".catch()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-3",
+              "question": "What is the purpose of 'async' keyword in JavaScript?",
+              "options": [
+                "Makes a function asynchronous",
+                "Waits for a promise",
+                "Creates a new thread"
+              ],
+              "correctAnswer": "Makes a function asynchronous",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-4",
+              "question": "What does 'import defaultExport from' do?",
+              "options": [
+                "Imports all functions",
+                "Imports the default export",
+                "Exports a module"
+              ],
+              "correctAnswer": "Imports the default export",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-5",
+              "question": "Which method resolves a JavaScript Promise?",
+              "options": [
+                "resolve()",
+                "reject()",
+                "return()"
+              ],
+              "correctAnswer": "resolve()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-6",
+              "question": "Which ES6 feature allows using template literals?",
+              "options": [
+                "${variable}",
+                "let",
+                "const"
+              ],
+              "correctAnswer": "${variable}",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-7",
+              "question": "Which method is used to execute a function after a specified delay?",
+              "options": [
+                "setTimeout()",
+                "setInterval()",
+                "clearTimeout()"
+              ],
+              "correctAnswer": "setTimeout()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-8",
+              "question": "Which keyword is used to define block-scoped variables?",
+              "options": [
+                "var",
+                "let",
+                "const"
+              ],
+              "correctAnswer": "let",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-9",
+              "question": "Which function converts a JSON string into a JavaScript object?",
+              "options": [
+                "JSON.parse()",
+                "JSON.stringify()",
+                "JSON.toObject()"
+              ],
+              "correctAnswer": "JSON.parse()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-10",
+              "question": "Which JavaScript feature allows spreading elements of an array?",
+              "options": [
+                "Rest operator",
+                "Spread operator",
+                "Concat method"
+              ],
+              "correctAnswer": "Spread operator",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-4",
+        "title": "Backend Development with Node.js",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-4-1",
+            "title": "Introduction to Express.js",
+            "content": "Learn the basics of Express.js and how to set up a Node.js server.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-1",
+                "question": "Which command is used to install Express.js?",
+                "options": [
+                  "npm install express",
+                  "express new app",
+                  "node install express"
+                ],
+                "correctAnswer": "npm install express",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-2",
+                "question": "Which method is used to create an Express app?",
+                "options": [
+                  "express()",
+                  "new Express()",
+                  "createExpress()"
+                ],
+                "correctAnswer": "express()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-3",
+                "question": "Which HTTP method is used to retrieve data from a server?",
+                "options": [
+                  "GET",
+                  "POST",
+                  "DELETE"
+                ],
+                "correctAnswer": "GET",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-2",
+            "title": "Building REST APIs with Express",
+            "content": "Learn how to create RESTful APIs using Express.js and handle different HTTP requests.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-4",
+                "question": "Which middleware is commonly used to parse JSON data in Express?",
+                "options": [
+                  "express.json()",
+                  "bodyParser.json()",
+                  "jsonParser()"
+                ],
+                "correctAnswer": "express.json()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-5",
+                "question": "What status code represents a successful HTTP request?",
+                "options": [
+                  "200",
+                  "404",
+                  "500"
+                ],
+                "correctAnswer": "200",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-6",
+                "question": "Which method is used to define a route in Express?",
+                "options": [
+                  "app.route()",
+                  "app.get()",
+                  "app.use()"
+                ],
+                "correctAnswer": "app.get()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-3",
+            "title": "Database Integration with MongoDB",
+            "content": "Understand how to connect Express.js with MongoDB using Mongoose.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-7",
+                "question": "Which library is commonly used to interact with MongoDB in Node.js?",
+                "options": [
+                  "Sequelize",
+                  "Mongoose",
+                  "MongoJS"
+                ],
+                "correctAnswer": "Mongoose",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-8",
+                "question": "Which command is used to connect to a MongoDB database in Mongoose?",
+                "options": [
+                  "mongoose.connect()",
+                  "mongo.connect()",
+                  "db.connect()"
+                ],
+                "correctAnswer": "mongoose.connect()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-9",
+                "question": "Which MongoDB operation is used to insert data into a collection?",
+                "options": [
+                  "insertOne()",
+                  "create()",
+                  "addData()"
+                ],
+                "correctAnswer": "insertOne()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-4",
+            "title": "Authentication & Security in Node.js",
+            "content": "Learn how to implement user authentication and security best practices in Node.js applications.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-10",
+                "question": "Which library is commonly used for user authentication in Express apps?",
+                "options": [
+                  "JWT",
+                  "OAuth",
+                  "Passport.js"
+                ],
+                "correctAnswer": "Passport.js",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-11",
+                "question": "What is the purpose of bcrypt in Node.js applications?",
+                "options": [
+                  "Encrypting passwords",
+                  "Handling API requests",
+                  "Storing user data"
+                ],
+                "correctAnswer": "Encrypting passwords",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-12",
+                "question": "Which HTTP status code represents an unauthorized request?",
+                "options": [
+                  "403",
+                  "401",
+                  "500"
+                ],
+                "correctAnswer": "401",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-4-1",
+              "question": "Which framework is used to build backend applications in Node.js?",
+              "options": [
+                "Django",
+                "Express.js",
+                "Flask"
+              ],
+              "correctAnswer": "Express.js",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-2",
+              "question": "Which middleware function is used to serve static files in Express?",
+              "options": [
+                "express.static()",
+                "app.useStatic()",
+                "staticFiles()"
+              ],
+              "correctAnswer": "express.static()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-3",
+              "question": "What is the default port number for a Node.js application?",
+              "options": [
+                "8080",
+                "3000",
+                "5000"
+              ],
+              "correctAnswer": "3000",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-4",
+              "question": "Which method is used to send a JSON response in Express?",
+              "options": [
+                "res.send()",
+                "res.json()",
+                "res.data()"
+              ],
+              "correctAnswer": "res.json()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-5",
+              "question": "Which module is required to work with MongoDB in a Node.js application?",
+              "options": [
+                "mongoose",
+                "express",
+                "body-parser"
+              ],
+              "correctAnswer": "mongoose",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-6",
+              "question": "What does CORS stand for?",
+              "options": [
+                "Cross-Origin Resource Sharing",
+                "Client-Origin Request Security",
+                "Cross-Over Routing System"
+              ],
+              "correctAnswer": "Cross-Origin Resource Sharing",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-7",
+              "question": "Which method is used to update a document in MongoDB?",
+              "options": [
+                "updateOne()",
+                "modifyOne()",
+                "changeDocument()"
+              ],
+              "correctAnswer": "updateOne()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-8",
+              "question": "Which hashing algorithm is commonly used with bcrypt?",
+              "options": [
+                "SHA-256",
+                "MD5",
+                "Blowfish"
+              ],
+              "correctAnswer": "Blowfish",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-9",
+              "question": "Which method is used to handle errors globally in Express?",
+              "options": [
+                "app.error()",
+                "app.use(errorHandler)",
+                "app.catch()"
+              ],
+              "correctAnswer": "app.use(errorHandler)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-10",
+              "question": "What is the purpose of middleware in Express?",
+              "options": [
+                "Handling requests and responses",
+                "Connecting to databases",
+                "Compiling JavaScript files"
+              ],
+              "correctAnswer": "Handling requests and responses",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-5",
+        "title": "MongoDB & Database Design",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-5-1",
+            "title": "Introduction to MongoDB & NoSQL",
+            "content": "Learn the basics of MongoDB, its advantages over relational databases, and NoSQL concepts.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-1",
+                "question": "What type of database is MongoDB?",
+                "options": [
+                  "Relational",
+                  "NoSQL",
+                  "Graph"
+                ],
+                "correctAnswer": "NoSQL",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-2",
+                "question": "Which command is used to check the available databases in MongoDB?",
+                "options": [
+                  "show dbs",
+                  "list databases",
+                  "get databases"
+                ],
+                "correctAnswer": "show dbs",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-3",
+                "question": "Which data format does MongoDB use for storing documents?",
+                "options": [
+                  "XML",
+                  "JSON",
+                  "BSON"
+                ],
+                "correctAnswer": "BSON",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-2",
+            "title": "CRUD Operations in MongoDB",
+            "content": "Understand how to create, read, update, and delete documents in MongoDB collections.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-4",
+                "question": "Which method is used to insert a single document into a MongoDB collection?",
+                "options": [
+                  "insertOne()",
+                  "addOne()",
+                  "createOne()"
+                ],
+                "correctAnswer": "insertOne()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-5",
+                "question": "Which method is used to retrieve all documents from a collection?",
+                "options": [
+                  "find()",
+                  "getAll()",
+                  "fetch()"
+                ],
+                "correctAnswer": "find()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-6",
+                "question": "Which method is used to delete a single document from a collection?",
+                "options": [
+                  "deleteOne()",
+                  "removeOne()",
+                  "dropOne()"
+                ],
+                "correctAnswer": "deleteOne()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-3",
+            "title": "Indexing in MongoDB",
+            "content": "Learn how indexing improves query performance and how to create indexes in MongoDB.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-7",
+                "question": "Which method is used to create an index in MongoDB?",
+                "options": [
+                  "createIndex()",
+                  "addIndex()",
+                  "setIndex()"
+                ],
+                "correctAnswer": "createIndex()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-8",
+                "question": "What is the default index created on every MongoDB collection?",
+                "options": [
+                  "_id index",
+                  "name index",
+                  "primary index"
+                ],
+                "correctAnswer": "_id index",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-9",
+                "question": "Which type of index supports geospatial queries in MongoDB?",
+                "options": [
+                  "2dsphere",
+                  "text",
+                  "hashed"
+                ],
+                "correctAnswer": "2dsphere",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-4",
+            "title": "Aggregation in MongoDB",
+            "content": "Learn how to perform data analysis and transformation using MongoDB’s aggregation framework.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-10",
+                "question": "Which method is used to perform aggregation operations in MongoDB?",
+                "options": [
+                  "aggregate()",
+                  "groupBy()",
+                  "pipeline()"
+                ],
+                "correctAnswer": "aggregate()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-11",
+                "question": "Which aggregation stage is used to group documents?",
+                "options": [
+                  "$group",
+                  "$match",
+                  "$sort"
+                ],
+                "correctAnswer": "$group",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-12",
+                "question": "Which stage in aggregation is used to filter documents?",
+                "options": [
+                  "$match",
+                  "$filter",
+                  "$where"
+                ],
+                "correctAnswer": "$match",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-5-1",
+              "question": "Which query is used to find a document in MongoDB?",
+              "options": [
+                "find()",
+                "search()",
+                "query()"
+              ],
+              "correctAnswer": "find()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-2",
+              "question": "Which command is used to delete a collection?",
+              "options": [
+                "drop()",
+                "delete()",
+                "remove()"
+              ],
+              "correctAnswer": "drop()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-3",
+              "question": "What does NoSQL stand for?",
+              "options": [
+                "Not Only SQL",
+                "Non-Structured Query Language",
+                "New SQL"
+              ],
+              "correctAnswer": "Not Only SQL",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-4",
+              "question": "Which command is used to update multiple documents in a collection?",
+              "options": [
+                "updateMany()",
+                "modifyMany()",
+                "editMany()"
+              ],
+              "correctAnswer": "updateMany()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-5",
+              "question": "Which MongoDB operator is used for sorting query results?",
+              "options": [
+                "$sort",
+                "$order",
+                "$arrange"
+              ],
+              "correctAnswer": "$sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-6",
+              "question": "What is the purpose of a capped collection?",
+              "options": [
+                "Fixed-size collection",
+                "Automatically indexed collection",
+                "Temporary collection"
+              ],
+              "correctAnswer": "Fixed-size collection",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-7",
+              "question": "Which MongoDB feature supports full-text search?",
+              "options": [
+                "Text Index",
+                "Full Index",
+                "Search Index"
+              ],
+              "correctAnswer": "Text Index",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-8",
+              "question": "Which MongoDB command is used to create a new database?",
+              "options": [
+                "use <dbname>",
+                "createDatabase()",
+                "newDB()"
+              ],
+              "correctAnswer": "use <dbname>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-9",
+              "question": "What is the purpose of the `$lookup` stage in aggregation?",
+              "options": [
+                "Joins collections",
+                "Filters documents",
+                "Sorts data"
+              ],
+              "correctAnswer": "Joins collections",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-10",
+              "question": "Which MongoDB method returns the total count of documents in a collection?",
+              "options": [
+                "countDocuments()",
+                "totalDocs()",
+                "getCount()"
+              ],
+              "correctAnswer": "countDocuments()",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-6",
+        "title": "Full-Stack Project & Deployment",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-6-1",
+            "title": "Authentication & Authorization",
+            "content": "Learn about user authentication, JWT, OAuth, and role-based access control (RBAC).",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-1",
+                "question": "Which authentication method uses tokens to validate users?",
+                "options": [
+                  "Session-based",
+                  "JWT",
+                  "OAuth"
+                ],
+                "correctAnswer": "JWT",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-2",
+                "question": "What is the purpose of OAuth?",
+                "options": [
+                  "Encrypt data",
+                  "Allow third-party authentication",
+                  "Store user credentials"
+                ],
+                "correctAnswer": "Allow third-party authentication",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-3",
+                "question": "Which HTTP status code represents an unauthorized request?",
+                "options": [
+                  "200",
+                  "403",
+                  "401"
+                ],
+                "correctAnswer": "401",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-2",
+            "title": "Continuous Integration & Continuous Deployment (CI/CD)",
+            "content": "Understand CI/CD pipelines, GitHub Actions, and deployment automation.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-4",
+                "question": "What does CI/CD stand for?",
+                "options": [
+                  "Continuous Improvement / Code Deployment",
+                  "Continuous Integration / Continuous Deployment",
+                  "Code Implementation / Continuous Development"
+                ],
+                "correctAnswer": "Continuous Integration / Continuous Deployment",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-5",
+                "question": "Which tool is commonly used for CI/CD pipelines?",
+                "options": [
+                  "Jenkins",
+                  "Postman",
+                  "MongoDB"
+                ],
+                "correctAnswer": "Jenkins",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-6",
+                "question": "What is the purpose of a CI/CD pipeline?",
+                "options": [
+                  "Manually deploy code",
+                  "Automate testing and deployment",
+                  "Store project backups"
+                ],
+                "correctAnswer": "Automate testing and deployment",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-3",
+            "title": "Hosting & Deployment",
+            "content": "Explore cloud platforms, Docker, and hosting services like AWS, Vercel, and Heroku.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-7",
+                "question": "Which cloud provider offers serverless deployment?",
+                "options": [
+                  "AWS Lambda",
+                  "MongoDB",
+                  "Docker"
+                ],
+                "correctAnswer": "AWS Lambda",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-8",
+                "question": "Which command is used to build a Docker image?",
+                "options": [
+                  "docker build",
+                  "docker create",
+                  "docker compose"
+                ],
+                "correctAnswer": "docker build",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-9",
+                "question": "Which service is commonly used for deploying frontend applications?",
+                "options": [
+                  "Vercel",
+                  "Postman",
+                  "MongoDB Atlas"
+                ],
+                "correctAnswer": "Vercel",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-4",
+            "title": "Monitoring & Security",
+            "content": "Learn how to monitor server performance, handle logs, and improve security.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-10",
+                "question": "Which tool is used for monitoring server performance?",
+                "options": [
+                  "Prometheus",
+                  "Git",
+                  "Figma"
+                ],
+                "correctAnswer": "Prometheus",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-11",
+                "question": "Which HTTP header helps prevent Cross-Site Scripting (XSS)?",
+                "options": [
+                  "Content-Security-Policy",
+                  "Authorization",
+                  "User-Agent"
+                ],
+                "correctAnswer": "Content-Security-Policy",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-12",
+                "question": "Which security measure helps protect passwords?",
+                "options": [
+                  "Hashing",
+                  "Plain text storage",
+                  "Logging"
+                ],
+                "correctAnswer": "Hashing",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-6-1",
+              "question": "What does RBAC stand for?",
+              "options": [
+                "Role-Based Access Control",
+                "Restricted Backend API Control",
+                "Role-Based Account Configuration"
+              ],
+              "correctAnswer": "Role-Based Access Control",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-2",
+              "question": "Which protocol is commonly used for secure web communication?",
+              "options": [
+                "HTTPS",
+                "FTP",
+                "SMTP"
+              ],
+              "correctAnswer": "HTTPS",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-3",
+              "question": "What is Docker primarily used for?",
+              "options": [
+                "Containerization",
+                "Database Management",
+                "Code Compilation"
+              ],
+              "correctAnswer": "Containerization",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-4",
+              "question": "Which CI/CD tool is integrated with GitHub?",
+              "options": [
+                "GitHub Actions",
+                "Postman",
+                "Terraform"
+              ],
+              "correctAnswer": "GitHub Actions",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-5",
+              "question": "Which service provides scalable cloud hosting?",
+              "options": [
+                "AWS EC2",
+                "MongoDB Atlas",
+                "Photoshop"
+              ],
+              "correctAnswer": "AWS EC2",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-6",
+              "question": "Which command is used to start a Docker container?",
+              "options": [
+                "docker run",
+                "docker start",
+                "docker create"
+              ],
+              "correctAnswer": "docker run",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-7",
+              "question": "Which logging service is commonly used in cloud applications?",
+              "options": [
+                "ELK Stack",
+                "GitHub",
+                "CSS"
+              ],
+              "correctAnswer": "ELK Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-8",
+              "question": "Which platform is used for frontend hosting with serverless functions?",
+              "options": [
+                "Vercel",
+                "Postman",
+                "Git"
+              ],
+              "correctAnswer": "Vercel",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-9",
+              "question": "Which of the following improves application security?",
+              "options": [
+                "SSL Certificates",
+                "Plain text passwords",
+                "Disabling firewalls"
+              ],
+              "correctAnswer": "SSL Certificates",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-10",
+              "question": "Which cloud provider offers Firebase Hosting?",
+              "options": [
+                "Google Cloud",
+                "AWS",
+                "Microsoft Azure"
+              ],
+              "correctAnswer": "Google Cloud",
+              "userAnswer": ""
+            }
+          ]
+        }
+      }
+    ]
+  } ,
+
+  {
+    "id": "course-2",
+    "title": "Data Structures and Algorithms",
+    "description": "Learn fundamental concepts of data structures and algorithms with hands-on practice.",
+    "chapters": [
+      {
+        "chapterId": "ch-1",
+        "title": "Introduction to Data Structures and Algorithms",
+        "unlocked": true,
+        "modules": [
+          {
+            "moduleId": "mod-1-1",
+            "title": "Introduction to Data Structures",
+            "content": "Understand the concept of data structures, their importance, and real-world applications.",
+            "unlocked": true,
+            "questions": [
+              {
+                "questionId": "q-1-1",
+                "question": "What is the primary purpose of data structures?",
+                "options": [
+                  "Store and organize data efficiently",
+                  "Execute algorithms faster",
+                  "Improve coding speed"
+                ],
+                "correctAnswer": "Store and organize data efficiently",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-2",
+                "question": "Which of the following is a linear data structure?",
+                "options": [
+                  "Tree",
+                  "Graph",
+                  "Array"
+                ],
+                "correctAnswer": "Array",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-3",
+                "question": "Which data structure uses LIFO (Last In, First Out) order?",
+                "options": [
+                  "Queue",
+                  "Stack",
+                  "Array"
+                ],
+                "correctAnswer": "Stack",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-2",
+            "title": "Introduction to Algorithms",
+            "content": "Learn the basics of algorithms, their complexity, and types of algorithms.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-4",
+                "question": "What is the time complexity of a binary search algorithm?",
+                "options": [
+                  "O(n)",
+                  "O(log n)",
+                  "O(n^2)"
+                ],
+                "correctAnswer": "O(log n)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-5",
+                "question": "Which algorithmic paradigm involves breaking down a problem into smaller sub-problems?",
+                "options": [
+                  "Greedy",
+                  "Divide and Conquer",
+                  "Dynamic Programming"
+                ],
+                "correctAnswer": "Divide and Conquer",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-6",
+                "question": "Which notation describes the upper bound of an algorithm?",
+                "options": [
+                  "Big O",
+                  "Theta",
+                  "Omega"
+                ],
+                "correctAnswer": "Big O",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-3",
+            "title": "Complexity Analysis",
+            "content": "Understand the importance of time and space complexity in algorithm design.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-7",
+                "question": "What does space complexity measure?",
+                "options": [
+                  "Time taken by an algorithm",
+                  "Memory required by an algorithm",
+                  "Efficiency of sorting algorithms"
+                ],
+                "correctAnswer": "Memory required by an algorithm",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-8",
+                "question": "Which complexity class represents exponential growth?",
+                "options": [
+                  "O(n)",
+                  "O(2^n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(2^n)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-9",
+                "question": "What is the best-case complexity of linear search?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-4",
+            "title": "Types of Data Structures",
+            "content": "Learn about linear and non-linear data structures and their characteristics.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-1-10",
+                "question": "Which of the following is a non-linear data structure?",
+                "options": [
+                  "Queue",
+                  "Linked List",
+                  "Graph"
+                ],
+                "correctAnswer": "Graph",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-11",
+                "question": "What is a linked list primarily used for?",
+                "options": [
+                  "Storing elements in contiguous memory",
+                  "Dynamically allocating memory",
+                  "Sorting data"
+                ],
+                "correctAnswer": "Dynamically allocating memory",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-1-12",
+                "question": "Which data structure is best for implementing a priority queue?",
+                "options": [
+                  "Array",
+                  "Stack",
+                  "Heap"
+                ],
+                "correctAnswer": "Heap",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-1-1",
+              "question": "Which data structure uses the Last In, First Out (LIFO) principle?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Array"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-2",
+              "question": "What is the time complexity of accessing an element in an array?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-3",
+              "question": "Which of the following data structures is used to implement recursion?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Linked List"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-4",
+              "question": "What is the worst-case time complexity of linear search?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-5",
+              "question": "Which algorithm is used to find the shortest path in a graph?",
+              "options": [
+                "Dijkstra's algorithm",
+                "Bubble sort",
+                "Merge sort"
+              ],
+              "correctAnswer": "Dijkstra's algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-6",
+              "question": "What is the primary advantage of a linked list over an array?",
+              "options": [
+                "Constant time access",
+                "Dynamic memory allocation",
+                "Less memory usage"
+              ],
+              "correctAnswer": "Dynamic memory allocation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-7",
+              "question": "Which data structure follows the First In, First Out (FIFO) principle?",
+              "options": [
+                "Stack",
+                "Queue",
+                "Array"
+              ],
+              "correctAnswer": "Queue",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-8",
+              "question": "Which of the following is a divide-and-conquer algorithm?",
+              "options": [
+                "Bubble sort",
+                "Quick sort",
+                "Insertion sort"
+              ],
+              "correctAnswer": "Quick sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-9",
+              "question": "What is the space complexity of an adjacency matrix for a graph with n vertices?",
+              "options": [
+                "O(n)",
+                "O(n^2)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n^2)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-1-10",
+              "question": "Which operation is used to add an element to the end of a queue?",
+              "options": [
+                "Push",
+                "Enqueue",
+                "Insert"
+              ],
+              "correctAnswer": "Enqueue",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-2",
+        "title": "Arrays, Strings, and Linked Lists",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-2-1",
+            "title": "Introduction to Arrays",
+            "content": "Understand the basics of arrays, accessing elements, and performing basic operations.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-1",
+                "question": "What is the time complexity of inserting an element at the end of an array?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-2",
+                "question": "Which operation in an array requires shifting elements?",
+                "options": [
+                  "Insert at the end",
+                  "Insert at the beginning",
+                  "Accessing an element"
+                ],
+                "correctAnswer": "Insert at the beginning",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-3",
+                "question": "What is the index of the first element in a zero-indexed array?",
+                "options": [
+                  "0",
+                  "1",
+                  "-1"
+                ],
+                "correctAnswer": "0",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-2",
+            "title": "Strings and String Manipulation",
+            "content": "Learn how to manipulate strings and perform operations like concatenation and substring search.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-4",
+                "question": "Which function is used to find the length of a string in Java?",
+                "options": [
+                  "size()",
+                  "length()",
+                  "getSize()"
+                ],
+                "correctAnswer": "length()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-5",
+                "question": "Which of the following methods is used to concatenate two strings?",
+                "options": [
+                  "concat()",
+                  "append()",
+                  "merge()"
+                ],
+                "correctAnswer": "concat()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-6",
+                "question": "Which of the following returns a substring from a string?",
+                "options": [
+                  "substring()",
+                  "sublist()",
+                  "subarray()"
+                ],
+                "correctAnswer": "substring()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-3",
+            "title": "Introduction to Linked Lists",
+            "content": "Understand the structure and types of linked lists and basic operations.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-7",
+                "question": "What is the main advantage of a linked list over an array?",
+                "options": [
+                  "Faster access",
+                  "Dynamic memory allocation",
+                  "Fixed size"
+                ],
+                "correctAnswer": "Dynamic memory allocation",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-8",
+                "question": "Which pointer in a singly linked list points to the next node?",
+                "options": [
+                  "prev",
+                  "next",
+                  "head"
+                ],
+                "correctAnswer": "next",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-9",
+                "question": "Which type of linked list has nodes with pointers to both the next and previous nodes?",
+                "options": [
+                  "Singly linked list",
+                  "Doubly linked list",
+                  "Circular linked list"
+                ],
+                "correctAnswer": "Doubly linked list",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-4",
+            "title": "Operations on Linked Lists",
+            "content": "Perform insertion, deletion, and traversal operations on linked lists.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-10",
+                "question": "What is the time complexity of inserting an element at the beginning of a singly linked list?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-11",
+                "question": "Which operation involves updating the next pointer of the last node in a linked list?",
+                "options": [
+                  "Insertion at beginning",
+                  "Insertion at end",
+                  "Deletion from end"
+                ],
+                "correctAnswer": "Insertion at end",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-12",
+                "question": "How do you traverse a singly linked list?",
+                "options": [
+                  "Using next pointers",
+                  "Using prev pointers",
+                  "Using head pointer only"
+                ],
+                "correctAnswer": "Using next pointers",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-2-1",
+              "question": "What is the time complexity of searching an element in an unsorted array?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-2",
+              "question": "Which data structure is best for implementing undo functionality?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Linked List"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-3",
+              "question": "What is the time complexity of reversing a linked list?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-4",
+              "question": "Which of the following is a mutable data structure?",
+              "options": [
+                "String",
+                "Array",
+                "Tuple"
+              ],
+              "correctAnswer": "Array",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-5",
+              "question": "What is the space complexity of storing a string of length n?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-6",
+              "question": "Which of the following is true for a circular linked list?",
+              "options": [
+                "Last node points to null",
+                "Last node points to the head",
+                "Nodes point in both directions"
+              ],
+              "correctAnswer": "Last node points to the head",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-7",
+              "question": "What is the time complexity for accessing an element in a linked list?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-8",
+              "question": "Which function is used to compare two strings in Java?",
+              "options": [
+                "equals()",
+                "compareTo()",
+                "compare()"
+              ],
+              "correctAnswer": "equals()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-9",
+              "question": "Which linked list operation requires updating the previous node's next pointer?",
+              "options": [
+                "Insertion at the end",
+                "Deletion from the middle",
+                "Traversal"
+              ],
+              "correctAnswer": "Deletion from the middle",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-10",
+              "question": "Which property ensures that a linked list does not end?",
+              "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular linked list"
+              ],
+              "correctAnswer": "Circular linked list",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-3",
+        "title": "Stacks, Queues, and Hashing",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-3-1",
+            "title": "Introduction to Stacks",
+            "content": "Learn the basics of stacks, LIFO principle, and operations such as push, pop, and peek.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-1",
+                "question": "Which principle does a stack follow?",
+                "options": [
+                  "FIFO",
+                  "LIFO",
+                  "Random Access"
+                ],
+                "correctAnswer": "LIFO",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-2",
+                "question": "What is the time complexity of pushing an element onto a stack?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-3",
+                "question": "Which operation removes the top element from a stack?",
+                "options": [
+                  "push()",
+                  "pop()",
+                  "peek()"
+                ],
+                "correctAnswer": "pop()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-2",
+            "title": "Introduction to Queues",
+            "content": "Understand queues, FIFO principle, and operations like enqueue, dequeue, and peek.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-4",
+                "question": "Which principle does a queue follow?",
+                "options": [
+                  "FIFO",
+                  "LIFO",
+                  "Random Access"
+                ],
+                "correctAnswer": "FIFO",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-5",
+                "question": "What is the time complexity of inserting an element at the end of a queue?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-6",
+                "question": "Which operation removes an element from the front of a queue?",
+                "options": [
+                  "enqueue()",
+                  "dequeue()",
+                  "peek()"
+                ],
+                "correctAnswer": "dequeue()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-3",
+            "title": "Introduction to Hashing",
+            "content": "Learn the basics of hashing, hash functions, and collision handling techniques.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-7",
+                "question": "What is the purpose of a hash function?",
+                "options": [
+                  "To sort data",
+                  "To map keys to indices",
+                  "To store elements sequentially"
+                ],
+                "correctAnswer": "To map keys to indices",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-8",
+                "question": "Which technique is used to handle collisions in hashing?",
+                "options": [
+                  "Chaining",
+                  "Sorting",
+                  "Merging"
+                ],
+                "correctAnswer": "Chaining",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-9",
+                "question": "Which of the following is an example of an ideal hash function property?",
+                "options": [
+                  "Minimal collisions",
+                  "Sequential storage",
+                  "Fixed key length"
+                ],
+                "correctAnswer": "Minimal collisions",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-4",
+            "title": "Applications of Stacks, Queues, and Hashing",
+            "content": "Explore real-world applications such as expression evaluation, task scheduling, and indexing.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-10",
+                "question": "Which data structure is used for expression evaluation?",
+                "options": [
+                  "Queue",
+                  "Stack",
+                  "Linked List"
+                ],
+                "correctAnswer": "Stack",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-11",
+                "question": "Which data structure is commonly used for task scheduling?",
+                "options": [
+                  "Stack",
+                  "Queue",
+                  "Hash Table"
+                ],
+                "correctAnswer": "Queue",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-12",
+                "question": "What is the average time complexity of searching in a hash table with a good hash function?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(1)",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-3-1",
+              "question": "What is the time complexity of accessing the top element of a stack?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-2",
+              "question": "Which data structure is used to implement recursion?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Hash Table"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-3",
+              "question": "What is the time complexity of inserting an element in a queue implemented using an array?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-4",
+              "question": "Which data structure is most suitable for implementing a priority queue?",
+              "options": [
+                "Stack",
+                "Queue",
+                "Heap"
+              ],
+              "correctAnswer": "Heap",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-5",
+              "question": "Which collision handling technique involves maintaining a list of all elements with the same hash value?",
+              "options": [
+                "Chaining",
+                "Open Addressing",
+                "Rehashing"
+              ],
+              "correctAnswer": "Chaining",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-6",
+              "question": "Which hashing technique probes for the next available slot in case of a collision?",
+              "options": [
+                "Chaining",
+                "Linear Probing",
+                "Double Hashing"
+              ],
+              "correctAnswer": "Linear Probing",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-7",
+              "question": "What is the time complexity of searching for an element in a hash table with chaining in the worst case?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-8",
+              "question": "What is the best-case time complexity of inserting an element into a hash table?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-9",
+              "question": "Which data structure uses a hash function to map data to key-value pairs?",
+              "options": [
+                "Stack",
+                "Queue",
+                "Hash Table"
+              ],
+              "correctAnswer": "Hash Table",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-10",
+              "question": "Which application uses a stack to maintain function calls?",
+              "options": [
+                "Task Scheduling",
+                "Recursion",
+                "Hashing"
+              ],
+              "correctAnswer": "Recursion",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-4",
+        "title": "Trees and Graphs",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-4-1",
+            "title": "Introduction to Trees",
+            "content": "Understand the basic concepts of trees, types of trees, and terminology such as root, parent, child, leaf, and height.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-1",
+                "question": "What is the root of a tree?",
+                "options": [
+                  "The topmost node",
+                  "A node with no children",
+                  "A node with one child"
+                ],
+                "correctAnswer": "The topmost node",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-2",
+                "question": "Which type of tree has at most two children per node?",
+                "options": [
+                  "Binary Tree",
+                  "Binary Search Tree",
+                  "AVL Tree"
+                ],
+                "correctAnswer": "Binary Tree",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-3",
+                "question": "What is the height of a tree with a single node?",
+                "options": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "correctAnswer": "0",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-2",
+            "title": "Tree Traversal Techniques",
+            "content": "Explore different tree traversal techniques, including inorder, preorder, and postorder traversal.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-4",
+                "question": "Which traversal technique visits the left subtree, the root, and then the right subtree?",
+                "options": [
+                  "Preorder",
+                  "Inorder",
+                  "Postorder"
+                ],
+                "correctAnswer": "Inorder",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-5",
+                "question": "Which traversal technique visits the root first, followed by the left and right subtrees?",
+                "options": [
+                  "Preorder",
+                  "Inorder",
+                  "Postorder"
+                ],
+                "correctAnswer": "Preorder",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-6",
+                "question": "In which traversal does the root get visited last?",
+                "options": [
+                  "Preorder",
+                  "Inorder",
+                  "Postorder"
+                ],
+                "correctAnswer": "Postorder",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-3",
+            "title": "Introduction to Graphs",
+            "content": "Learn the fundamentals of graphs, types of graphs, and graph representations such as adjacency matrix and adjacency list.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-7",
+                "question": "What is an undirected graph?",
+                "options": [
+                  "A graph where edges have no direction",
+                  "A graph where edges have a specific direction",
+                  "A graph where all nodes are connected"
+                ],
+                "correctAnswer": "A graph where edges have no direction",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-8",
+                "question": "Which graph representation uses a 2D array to store edge information?",
+                "options": [
+                  "Adjacency List",
+                  "Adjacency Matrix",
+                  "Edge List"
+                ],
+                "correctAnswer": "Adjacency Matrix",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-9",
+                "question": "What is the space complexity of an adjacency list for a graph with V vertices and E edges?",
+                "options": [
+                  "O(V^2)",
+                  "O(V + E)",
+                  "O(E log V)"
+                ],
+                "correctAnswer": "O(V + E)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-4",
+            "title": "Graph Traversal Algorithms",
+            "content": "Understand graph traversal algorithms like Depth-First Search (DFS) and Breadth-First Search (BFS).",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-10",
+                "question": "Which graph traversal algorithm uses a stack or recursion?",
+                "options": [
+                  "BFS",
+                  "DFS",
+                  "Dijkstra's Algorithm"
+                ],
+                "correctAnswer": "DFS",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-11",
+                "question": "Which graph traversal algorithm explores neighbors before visiting children?",
+                "options": [
+                  "DFS",
+                  "BFS",
+                  "Prim's Algorithm"
+                ],
+                "correctAnswer": "BFS",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-12",
+                "question": "Which data structure is typically used to implement BFS?",
+                "options": [
+                  "Stack",
+                  "Queue",
+                  "Heap"
+                ],
+                "correctAnswer": "Queue",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-4-1",
+              "question": "What is the time complexity of inorder, preorder, and postorder traversal in a binary tree?",
+              "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-2",
+              "question": "What is the maximum number of edges in a complete undirected graph with V vertices?",
+              "options": [
+                "V",
+                "V^2",
+                "V(V-1)/2"
+              ],
+              "correctAnswer": "V(V-1)/2",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-3",
+              "question": "Which of the following algorithms is used to detect a cycle in a graph?",
+              "options": [
+                "DFS",
+                "BFS",
+                "Dijkstra's Algorithm"
+              ],
+              "correctAnswer": "DFS",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-4",
+              "question": "Which graph representation is more space-efficient for a sparse graph?",
+              "options": [
+                "Adjacency Matrix",
+                "Adjacency List",
+                "Edge List"
+              ],
+              "correctAnswer": "Adjacency List",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-5",
+              "question": "Which of the following algorithms finds the shortest path in a weighted graph?",
+              "options": [
+                "DFS",
+                "BFS",
+                "Dijkstra's Algorithm"
+              ],
+              "correctAnswer": "Dijkstra's Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-6",
+              "question": "What is the time complexity of BFS in a graph with V vertices and E edges?",
+              "options": [
+                "O(V+E)",
+                "O(V^2)",
+                "O(E log V)"
+              ],
+              "correctAnswer": "O(V+E)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-7",
+              "question": "Which property holds true for a binary search tree?",
+              "options": [
+                "Left subtree has greater values",
+                "Right subtree has smaller values",
+                "Left subtree has smaller values"
+              ],
+              "correctAnswer": "Left subtree has smaller values",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-8",
+              "question": "Which traversal technique is used to get a sorted order of elements in a binary search tree?",
+              "options": [
+                "Preorder",
+                "Inorder",
+                "Postorder"
+              ],
+              "correctAnswer": "Inorder",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-9",
+              "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+              "options": [
+                "DFS",
+                "Kruskal's Algorithm",
+                "Dijkstra's Algorithm"
+              ],
+              "correctAnswer": "Kruskal's Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-10",
+              "question": "What is the space complexity of storing a graph with V vertices and E edges using an adjacency matrix?",
+              "options": [
+                "O(V + E)",
+                "O(V^2)",
+                "O(E log V)"
+              ],
+              "correctAnswer": "O(V^2)",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-5",
+        "title": "Sorting and Searching Algorithms",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-5-1",
+            "title": "Introduction to Sorting Algorithms",
+            "content": "Learn the basics of sorting algorithms, their classifications, and time/space complexity.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-1",
+                "question": "Which of the following is a stable sorting algorithm?",
+                "options": [
+                  "Merge Sort",
+                  "Quick Sort",
+                  "Heap Sort"
+                ],
+                "correctAnswer": "Merge Sort",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-2",
+                "question": "What is the time complexity of Bubble Sort in the worst case?",
+                "options": [
+                  "O(n)",
+                  "O(n^2)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(n^2)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-3",
+                "question": "Which sorting algorithm works by repeatedly selecting the smallest element?",
+                "options": [
+                  "Selection Sort",
+                  "Insertion Sort",
+                  "Merge Sort"
+                ],
+                "correctAnswer": "Selection Sort",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-2",
+            "title": "Divide and Conquer Sorting",
+            "content": "Explore sorting algorithms that use the divide-and-conquer approach, including Merge Sort and Quick Sort.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-4",
+                "question": "Which algorithm divides the array into two halves and merges them after sorting?",
+                "options": [
+                  "Quick Sort",
+                  "Merge Sort",
+                  "Insertion Sort"
+                ],
+                "correctAnswer": "Merge Sort",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-5",
+                "question": "Which pivot selection strategy is typically used in Quick Sort?",
+                "options": [
+                  "Middle element",
+                  "First element",
+                  "Random element"
+                ],
+                "correctAnswer": "Random element",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-6",
+                "question": "What is the worst-case time complexity of Quick Sort?",
+                "options": [
+                  "O(n log n)",
+                  "O(n^2)",
+                  "O(n)"
+                ],
+                "correctAnswer": "O(n^2)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-3",
+            "title": "Introduction to Searching Algorithms",
+            "content": "Learn the fundamental concepts of searching algorithms, including linear and binary search.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-7",
+                "question": "What is the time complexity of linear search in the worst case?",
+                "options": [
+                  "O(1)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(n)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-8",
+                "question": "Which search algorithm works only on sorted arrays?",
+                "options": [
+                  "Linear Search",
+                  "Binary Search",
+                  "Hash Search"
+                ],
+                "correctAnswer": "Binary Search",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-9",
+                "question": "What is the time complexity of binary search in the worst case?",
+                "options": [
+                  "O(n)",
+                  "O(log n)",
+                  "O(1)"
+                ],
+                "correctAnswer": "O(log n)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-4",
+            "title": "Advanced Sorting and Searching Techniques",
+            "content": "Understand advanced algorithms like Heap Sort and Interpolation Search and their applications.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-10",
+                "question": "Which sorting algorithm uses a binary heap data structure?",
+                "options": [
+                  "Quick Sort",
+                  "Heap Sort",
+                  "Merge Sort"
+                ],
+                "correctAnswer": "Heap Sort",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-11",
+                "question": "What is the average-case time complexity of Interpolation Search?",
+                "options": [
+                  "O(log log n)",
+                  "O(n)",
+                  "O(log n)"
+                ],
+                "correctAnswer": "O(log log n)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-12",
+                "question": "Which data structure is used in Heap Sort?",
+                "options": [
+                  "Stack",
+                  "Heap",
+                  "Queue"
+                ],
+                "correctAnswer": "Heap",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-5-1",
+              "question": "Which sorting algorithm has the best average-case time complexity?",
+              "options": [
+                "Merge Sort",
+                "Quick Sort",
+                "Bubble Sort"
+              ],
+              "correctAnswer": "Merge Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-2",
+              "question": "What is the space complexity of Merge Sort?",
+              "options": [
+                "O(n)",
+                "O(log n)",
+                "O(1)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-3",
+              "question": "Which sorting algorithm is the most efficient for small datasets?",
+              "options": [
+                "Insertion Sort",
+                "Heap Sort",
+                "Merge Sort"
+              ],
+              "correctAnswer": "Insertion Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-4",
+              "question": "What is the best-case time complexity of Quick Sort?",
+              "options": [
+                "O(n log n)",
+                "O(n)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(n log n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-5",
+              "question": "In which case does Quick Sort perform the worst?",
+              "options": [
+                "When the pivot is always the smallest or largest element",
+                "When the pivot is the middle element",
+                "When the pivot is chosen randomly"
+              ],
+              "correctAnswer": "When the pivot is always the smallest or largest element",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-6",
+              "question": "What is the time complexity of Binary Search in the average case?",
+              "options": [
+                "O(n)",
+                "O(log n)",
+                "O(1)"
+              ],
+              "correctAnswer": "O(log n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-7",
+              "question": "What is the best-case time complexity of Linear Search?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-8",
+              "question": "Which algorithm divides the search space into three parts instead of two?",
+              "options": [
+                "Ternary Search",
+                "Binary Search",
+                "Interpolation Search"
+              ],
+              "correctAnswer": "Ternary Search",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-9",
+              "question": "Which sorting algorithm is not based on comparisons?",
+              "options": [
+                "Merge Sort",
+                "Radix Sort",
+                "Quick Sort"
+              ],
+              "correctAnswer": "Radix Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-10",
+              "question": "What is the time complexity of Heap Sort in all cases?",
+              "options": [
+                "O(n)",
+                "O(n log n)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(n log n)",
+              "userAnswer": ""
+            }
+          ]
+        }
+      }, {
+        "chapterId": "ch-6",
+        "title": "Dynamic Programming and Greedy Algorithms",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-6-1",
+            "title": "Introduction to Dynamic Programming",
+            "content": "Learn the basics of dynamic programming (DP), its characteristics, and the concept of overlapping subproblems and optimal substructure.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-1",
+                "question": "What is the primary feature of dynamic programming?",
+                "options": [
+                  "Divide and Conquer",
+                  "Memoization",
+                  "Greedy Choice"
+                ],
+                "correctAnswer": "Memoization",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-2",
+                "question": "Which of the following problems is best solved using dynamic programming?",
+                "options": [
+                  "Binary Search",
+                  "Fibonacci Sequence",
+                  "Heap Sort"
+                ],
+                "correctAnswer": "Fibonacci Sequence",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-3",
+                "question": "What is memoization in dynamic programming?",
+                "options": [
+                  "Storing intermediate results to avoid recalculations",
+                  "Breaking a problem into independent subproblems",
+                  "Choosing the best possible solution at each step"
+                ],
+                "correctAnswer": "Storing intermediate results to avoid recalculations",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-2",
+            "title": "Greedy Algorithms and Their Applications",
+            "content": "Explore greedy algorithms, their characteristics, and applications in problems like Huffman coding and Kruskal's algorithm.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-4",
+                "question": "Which of the following algorithms follows a greedy approach?",
+                "options": [
+                  "Merge Sort",
+                  "Dijkstra's Algorithm",
+                  "Binary Search"
+                ],
+                "correctAnswer": "Dijkstra's Algorithm",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-5",
+                "question": "In which type of problem is the greedy algorithm guaranteed to give an optimal solution?",
+                "options": [
+                  "All problems",
+                  "Problems with optimal substructure and greedy choice property",
+                  "Divide and conquer problems"
+                ],
+                "correctAnswer": "Problems with optimal substructure and greedy choice property",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-6",
+                "question": "Which of the following is an application of greedy algorithms?",
+                "options": [
+                  "Knapsack Problem",
+                  "Matrix Chain Multiplication",
+                  "Longest Common Subsequence"
+                ],
+                "correctAnswer": "Knapsack Problem",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-3",
+            "title": "Famous Dynamic Programming Problems",
+            "content": "Learn to solve well-known dynamic programming problems such as Longest Common Subsequence, Matrix Chain Multiplication, and Knapsack Problem.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-7",
+                "question": "Which of the following problems can be solved using dynamic programming?",
+                "options": [
+                  "Kruskal's Algorithm",
+                  "Matrix Chain Multiplication",
+                  "Prim's Algorithm"
+                ],
+                "correctAnswer": "Matrix Chain Multiplication",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-8",
+                "question": "What is the time complexity of solving the Longest Common Subsequence (LCS) problem using dynamic programming?",
+                "options": [
+                  "O(mn)",
+                  "O(log n)",
+                  "O(n^2)"
+                ],
+                "correctAnswer": "O(mn)",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-9",
+                "question": "Which problem requires building a table to store results of overlapping subproblems?",
+                "options": [
+                  "Kruskal's Algorithm",
+                  "Matrix Chain Multiplication",
+                  "Dijkstra's Algorithm"
+                ],
+                "correctAnswer": "Matrix Chain Multiplication",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-4",
+            "title": "Comparison of Dynamic Programming and Greedy Algorithms",
+            "content": "Understand the differences between dynamic programming and greedy algorithms and when to choose one over the other.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-10",
+                "question": "Which technique ensures an optimal solution by solving subproblems once?",
+                "options": [
+                  "Dynamic Programming",
+                  "Greedy Algorithm",
+                  "Divide and Conquer"
+                ],
+                "correctAnswer": "Dynamic Programming",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-11",
+                "question": "Which algorithm picks the best possible choice at each step?",
+                "options": [
+                  "Greedy Algorithm",
+                  "Dynamic Programming",
+                  "Divide and Conquer"
+                ],
+                "correctAnswer": "Greedy Algorithm",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-12",
+                "question": "Which of the following is true about dynamic programming?",
+                "options": [
+                  "It only works for problems with no overlapping subproblems",
+                  "It avoids solving the same subproblem multiple times",
+                  "It always guarantees the shortest path"
+                ],
+                "correctAnswer": "It avoids solving the same subproblem multiple times",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-6-1",
+              "question": "Which of the following is an example of a problem solved using dynamic programming?",
+              "options": [
+                "Prim's Algorithm",
+                "Longest Common Subsequence",
+                "Binary Search"
+              ],
+              "correctAnswer": "Longest Common Subsequence",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-2",
+              "question": "What is the time complexity of dynamic programming in the Knapsack Problem?",
+              "options": [
+                "O(n log n)",
+                "O(nW)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(nW)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-3",
+              "question": "Which algorithm is used in Huffman coding?",
+              "options": [
+                "Dynamic Programming",
+                "Greedy Algorithm",
+                "Divide and Conquer"
+              ],
+              "correctAnswer": "Greedy Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-4",
+              "question": "Which technique stores intermediate results to optimize performance?",
+              "options": [
+                "Greedy Algorithm",
+                "Memoization",
+                "Divide and Conquer"
+              ],
+              "correctAnswer": "Memoization",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-5",
+              "question": "Which of the following problems is solved by a greedy algorithm?",
+              "options": [
+                "Matrix Chain Multiplication",
+                "Huffman Encoding",
+                "Longest Common Subsequence"
+              ],
+              "correctAnswer": "Huffman Encoding",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-6",
+              "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+              "options": [
+                "O(E log V)",
+                "O(V^2)",
+                "O(V log V)"
+              ],
+              "correctAnswer": "O(E log V)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-7",
+              "question": "Which data structure is commonly used in dynamic programming?",
+              "options": [
+                "Stack",
+                "Array/Table",
+                "Queue"
+              ],
+              "correctAnswer": "Array/Table",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-8",
+              "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+              "options": [
+                "Dijkstra's Algorithm",
+                "Kruskal's Algorithm",
+                "Floyd-Warshall Algorithm"
+              ],
+              "correctAnswer": "Kruskal's Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-9",
+              "question": "What is the key characteristic of greedy algorithms?",
+              "options": [
+                "Solving subproblems once",
+                "Choosing the best possible option at each step",
+                "Dividing the problem into smaller parts"
+              ],
+              "correctAnswer": "Choosing the best possible option at each step",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-10",
+              "question": "Which algorithm solves the shortest path problem for graphs with negative weights?",
+              "options": [
+                "Dijkstra's Algorithm",
+                "Bellman-Ford Algorithm",
+                "Prim's Algorithm"
+              ],
+              "correctAnswer": "Bellman-Ford Algorithm",
+              "userAnswer": ""
+            }
+          ]
+        }
+      }
+
+    ]
+  }, {
+  "id": "course-3",
+  "title": "Python Programming",
+  "description": "Learn Python from basics to advanced topics with hands-on exercises and projects.",
+  "chapters": [ {
+    "chapterId": "ch-1",
+    "title": "Introduction to Python",
+    "unlocked": true,
+    "modules": [
+      {
+        "moduleId": "mod-1-1",
+        "title": "Introduction to Python",
+        "content": "Learn about Python's history, features, and why it is widely used.",
+        "unlocked": true,
+        "questions": [
+          {
+            "questionId": "q-1-1",
+            "question": "Who developed Python?",
+            "options": [
+              "Guido van Rossum",
+              "Dennis Ritchie",
+              "Bjarne Stroustrup"
+            ],
+            "correctAnswer": "Guido van Rossum",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-2",
+            "question": "What type of programming language is Python?",
+            "options": [
+              "Compiled",
+              "Interpreted",
+              "Assembly"
+            ],
+            "correctAnswer": "Interpreted",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-3",
+            "question": "Which year was Python first released?",
+            "options": [
+              "1989",
+              "1991",
+              "2000"
+            ],
+            "correctAnswer": "1991",
+            "userAnswer": ""
+          }
+        ]
+      },
+      {
+        "moduleId": "mod-1-2",
+        "title": "Setting up Python",
+        "content": "Learn how to install Python and set up the development environment.",
+        "unlocked": false,
+        "questions": [
+          {
+            "questionId": "q-1-4",
+            "question": "Which command is used to check the installed Python version?",
+            "options": [
+              "python --version",
+              "py --v",
+              "python check"
+            ],
+            "correctAnswer": "python --version",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-5",
+            "question": "Which IDE is commonly used for Python development?",
+            "options": [
+              "PyCharm",
+              "Eclipse",
+              "Visual Studio"
+            ],
+            "correctAnswer": "PyCharm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-6",
+            "question": "What is the default mode of the Python interpreter?",
+            "options": [
+              "Interactive",
+              "Script",
+              "Debug"
+            ],
+            "correctAnswer": "Interactive",
+            "userAnswer": ""
+          }
+        ]
+      },
+      {
+        "moduleId": "mod-1-3",
+        "title": "Running Python Programs",
+        "content": "Learn how to execute Python scripts and use interactive mode.",
+        "unlocked": false,
+        "questions": [
+          {
+            "questionId": "q-1-7",
+            "question": "Which extension is used for Python files?",
+            "options": [
+              ".py",
+              ".java",
+              ".cpp"
+            ],
+            "correctAnswer": ".py",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-8",
+            "question": "What is the output of print(3 + 4 * 2)?",
+            "options": [
+              "14",
+              "11",
+              "8"
+            ],
+            "correctAnswer": "11",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-9",
+            "question": "How do you execute a Python script from the terminal?",
+            "options": [
+              "python script.py",
+              "run script.py",
+              "execute script.py"
+            ],
+            "correctAnswer": "python script.py",
+            "userAnswer": ""
+          }
+        ]
+      },
+      {
+        "moduleId": "mod-1-4",
+        "title": "Python Syntax Basics",
+        "content": "Understand the fundamental syntax rules of Python programming.",
+        "unlocked": false,
+        "questions": [
+          {
+            "questionId": "q-1-10",
+            "question": "Which of the following is a valid variable name in Python?",
+            "options": [
+              "2var",
+              "_varName",
+              "var-name"
+            ],
+            "correctAnswer": "_varName",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-11",
+            "question": "Which character is used to start a comment in Python?",
+            "options": [
+              "#",
+              "//",
+              "/* */"
+            ],
+            "correctAnswer": "#",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "q-1-12",
+            "question": "Which indentation level is recommended in Python?",
+            "options": [
+              "2 spaces",
+              "4 spaces",
+              "8 spaces"
+            ],
+            "correctAnswer": "4 spaces",
+            "userAnswer": ""
+          }
+        ]
+      }
+    ],
+    "assessment": {
+      "questions": [
+        {
+          "questionId": "assess-1-1",
+          "question": "What is the primary purpose of Python?",
+          "options": [
+            "Web development",
+            "Data analysis",
+            "General-purpose programming"
+          ],
+          "correctAnswer": "General-purpose programming",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-2",
+          "question": "Which symbol is used to define a function in Python?",
+          "options": [
+            "def",
+            "function",
+            "func"
+          ],
+          "correctAnswer": "def",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-3",
+          "question": "Which built-in function is used to display output in Python?",
+          "options": [
+            "echo()",
+            "print()",
+            "display()"
+          ],
+          "correctAnswer": "print()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-4",
+          "question": "What will be the output of: print(type(10.5))?",
+          "options": [
+            "<class 'float'>",
+            "<class 'int'>",
+            "<class 'double'>"
+          ],
+          "correctAnswer": "<class 'float'>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-5",
+          "question": "Which data type is mutable in Python?",
+          "options": [
+            "Tuple",
+            "List",
+            "String"
+          ],
+          "correctAnswer": "List",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-6",
+          "question": "How do you take user input in Python?",
+          "options": [
+            "input()",
+            "get()",
+            "scan()"
+          ],
+          "correctAnswer": "input()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-7",
+          "question": "What does the len() function do?",
+          "options": [
+            "Returns the last element",
+            "Counts the number of elements",
+            "Returns the type of variable"
+          ],
+          "correctAnswer": "Counts the number of elements",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-8",
+          "question": "Which operator is used for exponentiation in Python?",
+          "options": [
+            "^",
+            "**",
+            "//"
+          ],
+          "correctAnswer": "**",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-9",
+          "question": "Which keyword is used for loops in Python?",
+          "options": [
+            "for",
+            "loop",
+            "iterate"
+          ],
+          "correctAnswer": "for",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "assess-1-10",
+          "question": "Which function converts a string to an integer?",
+          "options": [
+            "str()",
+            "int()",
+            "float()"
+          ],
+          "correctAnswer": "int()",
+          "userAnswer": ""
+        }
+      ]
+    }
+  },
+
+    {
+      "chapterId": "ch-2",
+      "title": "Python Data Types and Variables",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-2-1",
+          "title": "Introduction to Data Types",
+          "content": "Learn about different data types in Python, such as integers, floats, and strings.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-1",
+              "question": "Which of the following is an immutable data type in Python?",
+              "options": [
+                "List",
+                "Dictionary",
+                "Tuple"
+              ],
+              "correctAnswer": "Tuple",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-2",
+              "question": "What is the type of the value 3.14 in Python?",
+              "options": [
+                "int",
+                "float",
+                "double"
+              ],
+              "correctAnswer": "float",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-3",
+              "question": "Which function is used to check the type of a variable in Python?",
+              "options": [
+                "type()",
+                "typeof()",
+                "getType()"
+              ],
+              "correctAnswer": "type()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-2",
+          "title": "Working with Variables",
+          "content": "Understand how to declare and use variables in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-4",
+              "question": "Which of the following is a valid variable name in Python?",
+              "options": [
+                "1var",
+                "_myVar",
+                "my-var"
+              ],
+              "correctAnswer": "_myVar",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-5",
+              "question": "Which keyword is used to declare a global variable inside a function?",
+              "options": [
+                "global",
+                "var",
+                "static"
+              ],
+              "correctAnswer": "global",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-6",
+              "question": "What happens when you assign a value to an undefined variable in Python?",
+              "options": [
+                "It raises an error",
+                "It gets automatically defined",
+                "It gets assigned a null value"
+              ],
+              "correctAnswer": "It gets automatically defined",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-3",
+          "title": "Type Conversion",
+          "content": "Learn about implicit and explicit type conversion in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-7",
+              "question": "Which function converts a string to an integer?",
+              "options": [
+                "int()",
+                "str()",
+                "float()"
+              ],
+              "correctAnswer": "int()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-8",
+              "question": "What is implicit type conversion in Python?",
+              "options": [
+                "When the user manually converts a type",
+                "When Python automatically converts types",
+                "When a variable changes type dynamically"
+              ],
+              "correctAnswer": "When Python automatically converts types",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-9",
+              "question": "Which of the following is an example of explicit type conversion?",
+              "options": [
+                "float(10)",
+                "10 + 5.5",
+                "x = 10"
+              ],
+              "correctAnswer": "float(10)",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-4",
+          "title": "String Operations",
+          "content": "Explore how to manipulate and work with strings in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-10",
+              "question": "Which operator is used for string concatenation?",
+              "options": [
+                "+",
+                "&",
+                "*"
+              ],
+              "correctAnswer": "+",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-11",
+              "question": "Which method converts a string to uppercase?",
+              "options": [
+                "upper()",
+                "capitalize()",
+                "toUpper()"
+              ],
+              "correctAnswer": "upper()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-12",
+              "question": "How do you find the length of a string in Python?",
+              "options": [
+                "size()",
+                "count()",
+                "len()"
+              ],
+              "correctAnswer": "len()",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-2-1",
+            "question": "Which of the following is a mutable data type in Python?",
+            "options": [
+              "List",
+              "Tuple",
+              "String"
+            ],
+            "correctAnswer": "List",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-2",
+            "question": "Which function is used to convert an integer to a string?",
+            "options": [
+              "str()",
+              "int()",
+              "string()"
+            ],
+            "correctAnswer": "str()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-3",
+            "question": "Which keyword is used to define a constant variable in Python?",
+            "options": [
+              "const",
+              "final",
+              "Python does not have constants"
+            ],
+            "correctAnswer": "Python does not have constants",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-4",
+            "question": "Which method is used to remove whitespace from a string?",
+            "options": [
+              "strip()",
+              "trim()",
+              "removeSpaces()"
+            ],
+            "correctAnswer": "strip()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-5",
+            "question": "Which symbol is used to assign values to variables?",
+            "options": [
+              "=",
+              "==",
+              ":="
+            ],
+            "correctAnswer": "=",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-6",
+            "question": "Which data type allows duplicate values?",
+            "options": [
+              "Set",
+              "List",
+              "Dictionary"
+            ],
+            "correctAnswer": "List",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-7",
+            "question": "What is the result of '5' + '5' in Python?",
+            "options": [
+              "10",
+              "'55'",
+              "Error"
+            ],
+            "correctAnswer": "'55'",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-8",
+            "question": "Which method is used to check if a string starts with a specific letter?",
+            "options": [
+              "startswith()",
+              "endswith()",
+              "beginwith()"
+            ],
+            "correctAnswer": "startswith()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-9",
+            "question": "What is the output of type([])?",
+            "options": [
+              "<class 'list'>",
+              "<class 'tuple'>",
+              "<class 'array'>"
+            ],
+            "correctAnswer": "<class 'list'>",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-10",
+            "question": "Which function returns the ASCII value of a character?",
+            "options": [
+              "ord()",
+              "ascii()",
+              "chr()"
+            ],
+            "correctAnswer": "ord()",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+
+    {
+      "chapterId": "ch-3",
+      "title": "Operators and Expressions",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-3-1",
+          "title": "Arithmetic Operators",
+          "content": "Learn about arithmetic operations such as addition, subtraction, multiplication, and division.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-1",
+              "question": "What is the result of 10 % 3?",
+              "options": [
+                "1",
+                "3",
+                "0"
+              ],
+              "correctAnswer": "1",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-2",
+              "question": "Which operator is used for exponentiation in Python?",
+              "options": [
+                "^",
+                "**",
+                "//"
+              ],
+              "correctAnswer": "**",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-3",
+              "question": "What will be the output of 15 // 4?",
+              "options": [
+                "3.75",
+                "4",
+                "3"
+              ],
+              "correctAnswer": "3",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-2",
+          "title": "Comparison and Logical Operators",
+          "content": "Understand comparison operators such as ==, !=, >, < and logical operators like and, or, not.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-4",
+              "question": "What is the result of 5 == 5?",
+              "options": [
+                "True",
+                "False",
+                "Error"
+              ],
+              "correctAnswer": "True",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-5",
+              "question": "Which logical operator returns True if both conditions are True?",
+              "options": [
+                "or",
+                "and",
+                "not"
+              ],
+              "correctAnswer": "and",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-6",
+              "question": "What is the result of not False?",
+              "options": [
+                "True",
+                "False",
+                "Error"
+              ],
+              "correctAnswer": "True",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-3",
+          "title": "Assignment and Bitwise Operators",
+          "content": "Learn how assignment operators work and explore bitwise operations in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-7",
+              "question": "Which operator is used for bitwise AND in Python?",
+              "options": [
+                "&",
+                "|",
+                "^"
+              ],
+              "correctAnswer": "&",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-8",
+              "question": "What does x += 2 do in Python?",
+              "options": [
+                "Increases x by 2",
+                "Assigns 2 to x",
+                "Decreases x by 2"
+              ],
+              "correctAnswer": "Increases x by 2",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-9",
+              "question": "Which bitwise operator flips all bits?",
+              "options": [
+                "~",
+                "&",
+                "|"
+              ],
+              "correctAnswer": "~",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-4",
+          "title": "Operator Precedence",
+          "content": "Understand the order of execution of operators in Python expressions.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-10",
+              "question": "Which operator has the highest precedence?",
+              "options": [
+                "*",
+                "+",
+                "**"
+              ],
+              "correctAnswer": "**",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-11",
+              "question": "What is the result of (3 + 2) * 4?",
+              "options": [
+                "14",
+                "20",
+                "12"
+              ],
+              "correctAnswer": "20",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-12",
+              "question": "Which operator is evaluated first in 5 + 2 * 3?",
+              "options": [
+                "+",
+                "*",
+                "Both at the same time"
+              ],
+              "correctAnswer": "*",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-3-1",
+            "question": "Which of the following is a valid arithmetic operator in Python?",
+            "options": [
+              "&&",
+              "+",
+              "=="
+            ],
+            "correctAnswer": "+",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-2",
+            "question": "Which operator is used to check equality in Python?",
+            "options": [
+              "=",
+              "==",
+              "!="
+            ],
+            "correctAnswer": "==",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-3",
+            "question": "Which bitwise operator is used for OR?",
+            "options": [
+              "&",
+              "|",
+              "^"
+            ],
+            "correctAnswer": "|",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-4",
+            "question": "What is the output of 7 % 2?",
+            "options": [
+              "1",
+              "3",
+              "0"
+            ],
+            "correctAnswer": "1",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-5",
+            "question": "Which operator has the lowest precedence?",
+            "options": [
+              "+",
+              "or",
+              "*"
+            ],
+            "correctAnswer": "or",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-6",
+            "question": "What is the result of 10 / 3 in Python 3?",
+            "options": [
+              "3.3333",
+              "3",
+              "Error"
+            ],
+            "correctAnswer": "3.3333",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-7",
+            "question": "What does x &= 2 do?",
+            "options": [
+              "Bitwise AND operation and assign",
+              "Bitwise OR operation and assign",
+              "Assigns 2 to x"
+            ],
+            "correctAnswer": "Bitwise AND operation and assign",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-8",
+            "question": "What is the result of not True?",
+            "options": [
+              "False",
+              "True",
+              "None"
+            ],
+            "correctAnswer": "False",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-9",
+            "question": "Which expression correctly checks if x is greater than y and z?",
+            "options": [
+              "x > y and z",
+              "x > y and x > z",
+              "x > (y and z)"
+            ],
+            "correctAnswer": "x > y and x > z",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-10",
+            "question": "What is the output of (10 - 3) * 2?",
+            "options": [
+              "14",
+              "20",
+              "16"
+            ],
+            "correctAnswer": "14",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+
+    {
+      "chapterId": "ch-4",
+      "title": "Control Flow in Python",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-4-1",
+          "title": "Conditional Statements",
+          "content": "Learn how to use if, elif, and else statements in Python for decision-making.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-1",
+              "question": "Which keyword is used for a conditional statement in Python?",
+              "options": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "correctAnswer": "if",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-2",
+              "question": "What will be the output of 'if 0:'?",
+              "options": [
+                "True",
+                "False",
+                "Error"
+              ],
+              "correctAnswer": "False",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-3",
+              "question": "Which statement is used to execute a block of code when a condition is false?",
+              "options": [
+                "if",
+                "else",
+                "elif"
+              ],
+              "correctAnswer": "else",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-2",
+          "title": "Loops in Python",
+          "content": "Understand how loops (for and while) work in Python for iteration.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-4",
+              "question": "Which loop executes at least once even if the condition is false?",
+              "options": [
+                "while",
+                "for",
+                "Python does not have this feature"
+              ],
+              "correctAnswer": "Python does not have this feature",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-5",
+              "question": "Which statement is used to stop a loop?",
+              "options": [
+                "stop",
+                "break",
+                "exit"
+              ],
+              "correctAnswer": "break",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-6",
+              "question": "Which loop is preferred when the number of iterations is known?",
+              "options": [
+                "for",
+                "while",
+                "do-while"
+              ],
+              "correctAnswer": "for",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-3",
+          "title": "Loop Control Statements",
+          "content": "Learn how to use break, continue, and pass statements to control loop execution.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-7",
+              "question": "Which statement skips the current iteration and moves to the next?",
+              "options": [
+                "continue",
+                "break",
+                "pass"
+              ],
+              "correctAnswer": "continue",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-8",
+              "question": "Which statement is used to exit a loop completely?",
+              "options": [
+                "break",
+                "continue",
+                "pass"
+              ],
+              "correctAnswer": "break",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-9",
+              "question": "Which statement is used when a syntactically required block should do nothing?",
+              "options": [
+                "break",
+                "continue",
+                "pass"
+              ],
+              "correctAnswer": "pass",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-4",
+          "title": "Nested Loops and Conditional Statements",
+          "content": "Understand how to use loops inside loops and conditional statements inside loops.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-10",
+              "question": "Which loop is executed first in a nested loop?",
+              "options": [
+                "Outer loop",
+                "Inner loop",
+                "Random"
+              ],
+              "correctAnswer": "Outer loop",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-11",
+              "question": "What is the output of: for i in range(2): for j in range(2): print(i, j)?",
+              "options": [
+                "0 0, 0 1, 1 0, 1 1",
+                "0 0, 1 0, 0 1, 1 1",
+                "0 0, 1 1, 0 1, 1 0"
+              ],
+              "correctAnswer": "0 0, 0 1, 1 0, 1 1",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-12",
+              "question": "Which of the following can be inside a loop?",
+              "options": [
+                "Another loop",
+                "An if statement",
+                "Both"
+              ],
+              "correctAnswer": "Both",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-4-1",
+            "question": "Which keyword is used to create an if statement in Python?",
+            "options": [
+              "if",
+              "switch",
+              "case"
+            ],
+            "correctAnswer": "if",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-2",
+            "question": "Which loop is best when the number of iterations is unknown?",
+            "options": [
+              "for",
+              "while",
+              "do-while"
+            ],
+            "correctAnswer": "while",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-3",
+            "question": "Which statement is used to exit a loop?",
+            "options": [
+              "stop",
+              "break",
+              "exit"
+            ],
+            "correctAnswer": "break",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-4",
+            "question": "Which loop runs at least once, even if the condition is false?",
+            "options": [
+              "for",
+              "while",
+              "Python does not support this feature"
+            ],
+            "correctAnswer": "Python does not support this feature",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-5",
+            "question": "What is the purpose of the 'continue' statement?",
+            "options": [
+              "Exit the loop",
+              "Skip the current iteration",
+              "End the program"
+            ],
+            "correctAnswer": "Skip the current iteration",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-6",
+            "question": "Which statement is used for an empty function or loop?",
+            "options": [
+              "break",
+              "continue",
+              "pass"
+            ],
+            "correctAnswer": "pass",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-7",
+            "question": "What is the output of: for i in range(3): print(i)?",
+            "options": [
+              "0, 1, 2",
+              "1, 2, 3",
+              "0, 1, 2, 3"
+            ],
+            "correctAnswer": "0, 1, 2",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-8",
+            "question": "Which statement is used when an if condition needs no action?",
+            "options": [
+              "continue",
+              "break",
+              "pass"
+            ],
+            "correctAnswer": "pass",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-9",
+            "question": "Which keyword is used for a multi-condition decision?",
+            "options": [
+              "if",
+              "elif",
+              "else"
+            ],
+            "correctAnswer": "elif",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-10",
+            "question": "What is the output of: if 5 > 3: print('Yes')?",
+            "options": [
+              "Yes",
+              "No",
+              "Error"
+            ],
+            "correctAnswer": "Yes",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+
+    {
+      "chapterId": "ch-5",
+      "title": "Functions in Python",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-5-1",
+          "title": "Introduction to Functions",
+          "content": "Learn the basics of functions, their importance, and how to define them in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-1",
+              "question": "Which keyword is used to define a function in Python?",
+              "options": [
+                "func",
+                "define",
+                "def"
+              ],
+              "correctAnswer": "def",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-2",
+              "question": "What will be the output of a function that does not have a return statement?",
+              "options": [
+                "None",
+                "0",
+                "Error"
+              ],
+              "correctAnswer": "None",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-3",
+              "question": "What is the correct syntax for calling a function named myFunction?",
+              "options": [
+                "myFunction()",
+                "call myFunction",
+                "execute myFunction"
+              ],
+              "correctAnswer": "myFunction()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-2",
+          "title": "Function Parameters and Arguments",
+          "content": "Understand how to pass parameters and arguments to functions in Python.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-4",
+              "question": "What is the default return value of a function that does not return anything?",
+              "options": [
+                "0",
+                "None",
+                "Empty String"
+              ],
+              "correctAnswer": "None",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-5",
+              "question": "Which type of function parameter allows a default value?",
+              "options": [
+                "Positional",
+                "Default",
+                "Variable-length"
+              ],
+              "correctAnswer": "Default",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-6",
+              "question": "Which symbol is used to pass variable-length arguments?",
+              "options": [
+                "*",
+                "**",
+                "&"
+              ],
+              "correctAnswer": "*",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-3",
+          "title": "Return Statements and Scope",
+          "content": "Learn how return statements work and the concept of variable scope.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-7",
+              "question": "Which keyword is used to return a value from a function?",
+              "options": [
+                "return",
+                "yield",
+                "output"
+              ],
+              "correctAnswer": "return",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-8",
+              "question": "What is the scope of a variable defined inside a function?",
+              "options": [
+                "Global",
+                "Local",
+                "Static"
+              ],
+              "correctAnswer": "Local",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-9",
+              "question": "Which keyword is used to modify a global variable inside a function?",
+              "options": [
+                "global",
+                "static",
+                "nonlocal"
+              ],
+              "correctAnswer": "global",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-4",
+          "title": "Lambda Functions",
+          "content": "Understand the use of lambda functions and how they differ from regular functions.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-10",
+              "question": "What is a lambda function?",
+              "options": [
+                "A function with no return type",
+                "An anonymous function",
+                "A recursive function"
+              ],
+              "correctAnswer": "An anonymous function",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-11",
+              "question": "Which keyword is used to create a lambda function?",
+              "options": [
+                "lambda",
+                "def",
+                "func"
+              ],
+              "correctAnswer": "lambda",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-12",
+              "question": "Which of the following is a valid lambda function syntax?",
+              "options": [
+                "lambda x: x * 2",
+                "def lambda x: x * 2",
+                "function lambda x: x * 2"
+              ],
+              "correctAnswer": "lambda x: x * 2",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-5-1",
+            "question": "Which statement is used to define a function in Python?",
+            "options": [
+              "func",
+              "def",
+              "define"
+            ],
+            "correctAnswer": "def",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-2",
+            "question": "What will be the output if a function has no return statement?",
+            "options": [
+              "None",
+              "0",
+              "Error"
+            ],
+            "correctAnswer": "None",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-3",
+            "question": "What is the purpose of the 'return' statement?",
+            "options": [
+              "Terminate function execution",
+              "Return a value",
+              "Both"
+            ],
+            "correctAnswer": "Both",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-4",
+            "question": "Which type of function argument has a default value?",
+            "options": [
+              "Positional",
+              "Default",
+              "Variable-length"
+            ],
+            "correctAnswer": "Default",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-5",
+            "question": "What is the scope of a variable declared inside a function?",
+            "options": [
+              "Global",
+              "Local",
+              "Static"
+            ],
+            "correctAnswer": "Local",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-6",
+            "question": "Which function is used to create an anonymous function?",
+            "options": [
+              "lambda",
+              "def",
+              "func"
+            ],
+            "correctAnswer": "lambda",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-7",
+            "question": "Which keyword allows modification of a global variable inside a function?",
+            "options": [
+              "global",
+              "nonlocal",
+              "static"
+            ],
+            "correctAnswer": "global",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-8",
+            "question": "Which of the following is a correct function definition?",
+            "options": [
+              "function myFunc():",
+              "def myFunc():",
+              "define myFunc():"
+            ],
+            "correctAnswer": "def myFunc():",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-9",
+            "question": "What will be the output of 'lambda x: x+5' when called with 10?",
+            "options": [
+              "10",
+              "15",
+              "Error"
+            ],
+            "correctAnswer": "15",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-10",
+            "question": "Which keyword is used to define a recursive function?",
+            "options": [
+              "def",
+              "return",
+              "rec"
+            ],
+            "correctAnswer": "def",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    {
+      "chapterId": "ch-6",
+      "title": "Lists and Tuples in Python",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-6-1",
+          "title": "Introduction to Lists",
+          "content": "Learn about lists in Python, their properties, and basic operations.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-1",
+              "question": "Which of the following is a valid list declaration?",
+              "options": [
+                "list = {1, 2, 3}",
+                "list = [1, 2, 3]",
+                "list = (1, 2, 3)"
+              ],
+              "correctAnswer": "list = [1, 2, 3]",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-2",
+              "question": "What will be the output of len([1, 2, 3])?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "correctAnswer": "3",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-3",
+              "question": "How do you access the first element of a list named myList?",
+              "options": [
+                "myList[0]",
+                "myList(0)",
+                "myList{0}"
+              ],
+              "correctAnswer": "myList[0]",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-2",
+          "title": "List Methods and Operations",
+          "content": "Understand various list operations and built-in methods like append(), remove(), and pop().",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-4",
+              "question": "Which method is used to add an element to the end of a list?",
+              "options": [
+                "insert()",
+                "append()",
+                "extend()"
+              ],
+              "correctAnswer": "append()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-5",
+              "question": "Which method removes and returns the last element of a list?",
+              "options": [
+                "delete()",
+                "remove()",
+                "pop()"
+              ],
+              "correctAnswer": "pop()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-6",
+              "question": "Which method is used to sort a list in ascending order?",
+              "options": [
+                "sort()",
+                "order()",
+                "arrange()"
+              ],
+              "correctAnswer": "sort()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-3",
+          "title": "Introduction to Tuples",
+          "content": "Learn about tuples in Python, their properties, and how they differ from lists.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-7",
+              "question": "Which of the following is a valid tuple declaration?",
+              "options": [
+                "tuple = [1, 2, 3]",
+                "tuple = {1, 2, 3}",
+                "tuple = (1, 2, 3)"
+              ],
+              "correctAnswer": "tuple = (1, 2, 3)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-8",
+              "question": "Which of the following is a characteristic of tuples?",
+              "options": [
+                "Tuples are mutable",
+                "Tuples are immutable",
+                "Tuples support item deletion"
+              ],
+              "correctAnswer": "Tuples are immutable",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-9",
+              "question": "Which method is used to count occurrences of an element in a tuple?",
+              "options": [
+                "count()",
+                "index()",
+                "find()"
+              ],
+              "correctAnswer": "count()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-4",
+          "title": "Tuple Operations and Methods",
+          "content": "Understand how to access tuple elements and perform operations like concatenation and slicing.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-10",
+              "question": "How do you access the last element of a tuple?",
+              "options": [
+                "tuple[-1]",
+                "tuple[last]",
+                "tuple(end)"
+              ],
+              "correctAnswer": "tuple[-1]",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-11",
+              "question": "Which operation can be performed on a tuple?",
+              "options": [
+                "Adding elements",
+                "Removing elements",
+                "Concatenation"
+              ],
+              "correctAnswer": "Concatenation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-12",
+              "question": "Which function converts a tuple into a list?",
+              "options": [
+                "convert()",
+                "tuple_to_list()",
+                "list()"
+              ],
+              "correctAnswer": "list()",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-6-1",
+            "question": "Which method adds an element to a list?",
+            "options": [
+              "insert()",
+              "append()",
+              "extend()"
+            ],
+            "correctAnswer": "append()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-2",
+            "question": "Which of the following is a mutable data type?",
+            "options": [
+              "List",
+              "Tuple",
+              "String"
+            ],
+            "correctAnswer": "List",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-3",
+            "question": "Which of the following is immutable?",
+            "options": [
+              "List",
+              "Tuple",
+              "Dictionary"
+            ],
+            "correctAnswer": "Tuple",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-4",
+            "question": "Which function returns the length of a list?",
+            "options": [
+              "size()",
+              "count()",
+              "len()"
+            ],
+            "correctAnswer": "len()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-5",
+            "question": "How do you access the first element of a list?",
+            "options": [
+              "list[1]",
+              "list[0]",
+              "list.first()"
+            ],
+            "correctAnswer": "list[0]",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-6",
+            "question": "Which method removes an element by value from a list?",
+            "options": [
+              "pop()",
+              "remove()",
+              "delete()"
+            ],
+            "correctAnswer": "remove()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-7",
+            "question": "Which method returns the index of an element in a tuple?",
+            "options": [
+              "find()",
+              "index()",
+              "search()"
+            ],
+            "correctAnswer": "index()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-8",
+            "question": "Which of the following is a valid way to declare an empty tuple?",
+            "options": [
+              "tuple = ()",
+              "tuple = []",
+              "tuple = {}"
+            ],
+            "correctAnswer": "tuple = ()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-9",
+            "question": "Which function converts a list to a tuple?",
+            "options": [
+              "tuple()",
+              "convert()",
+              "to_tuple()"
+            ],
+            "correctAnswer": "tuple()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-10",
+            "question": "How do you remove all elements from a list?",
+            "options": [
+              "clear()",
+              "delete()",
+              "remove_all()"
+            ],
+            "correctAnswer": "clear()",
+            "userAnswer": ""
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+]
