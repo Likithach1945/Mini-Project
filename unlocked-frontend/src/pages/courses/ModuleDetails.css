@@ -6,6 +6,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   transition: 0.3s;
+  scroll-margin-top: 80px;
 }
 
 .module-details.locked {
@@ -14,12 +15,10 @@
   pointer-events: none;
 }
 
-/* Question List */
 .question-list {
   margin-top: 10px;
 }
 
-/* Individual Question Styling */
 .question {
   margin-bottom: 20px;
   padding: 15px;
@@ -35,7 +34,6 @@
   color: white;
 }
 
-/* Options Styling */
 .options {
   display: flex;
   flex-direction: column;
@@ -64,7 +62,6 @@
   cursor: pointer;
 }
 
-/* Feedback Styling */
 .correct {
   color: green;
   font-weight: bold;
@@ -82,7 +79,6 @@
   margin-top: 10px;
 }
 
-/* Submit Button Styling */
 .submit-btn {
   margin-top: 10px;
   background-color: #28a745;
@@ -102,8 +98,6 @@
   background-color: lightgray;
   cursor: not-allowed;
 }
-
-/*success Toast*/
 
 .success-banner {
   background: linear-gradient(135deg, #c3f0ca, #e0ffe0);
@@ -139,7 +133,6 @@
   font-size: 18px;
 }
 
-/*clipboard css*/
 .code-block-wrapper {
   position: relative;
 }
@@ -161,7 +154,6 @@
   background: #e0e0e0;
 }
 
-/* markdown styling */
 .markdown-content {
   line-height: 1.8;
   letter-spacing: 0.2px;
@@ -200,7 +192,6 @@
   margin-bottom: 1.5rem;
   padding: 1rem;
   border-radius: 8px;
-  /* background-color: #f5f5f5; */
   background-color: #625e5e;
   overflow-x: auto;
   z-index: -1;

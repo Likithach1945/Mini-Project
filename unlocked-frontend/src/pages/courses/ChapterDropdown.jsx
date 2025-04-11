@@ -1,6 +1,5 @@
 
-
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ModuleDetails from "./ModuleDetails";
 import Assessment from "./Assessment";
 import "./ChapterDropdown.css";
@@ -10,107 +9,143 @@ const ChapterDropdown = ({
   courseId,
   unlockNextChapter,
   unlockNextModule,
+  isActive,
+  setActiveChapterIndex,
+  index,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
   const [selectedModuleIndex, setSelectedModuleIndex] = useState(null);
   const [isAssessmentOpen, setIsAssessmentOpen] = useState(false);
 
-  // Toggle chapter open/close
+  const moduleRefs = useRef([]);
+  const assessmentRef = useRef(null);
+  const chapterRef = useRef(null);
+
   const toggleDropdown = () => {
-    if (!chapter.unlocked) return; // Do nothing if chapter is locked
-    setIsOpen(!isOpen);
-    setSelectedModuleIndex(null); // Close any open module when closing the chapter
-    setIsAssessmentOpen(false); // Close assessment if chapter is closed
+    if (!chapter.unlocked) return;
+
+    if (isActive) {
+      setActiveChapterIndex(null);
+    } else {
+      setActiveChapterIndex(index);
+    }
+
+    setSelectedModuleIndex(null);
+    setIsAssessmentOpen(false);
   };
 
-  // Handle module click to expand content
-  const handleModuleClick = (index) => {
-    if (!chapter.unlocked || chapter.modules[index].unlocked === false) return; // Do nothing if module is locked
-    setSelectedModuleIndex(index === selectedModuleIndex ? null : index);
+  const handleModuleClick = (idx) => {
+    if (!chapter.unlocked || !chapter.modules[idx]?.unlocked) return;
+
+    const newIndex = idx === selectedModuleIndex ? null : idx;
+    setSelectedModuleIndex(newIndex);
+
+    if (newIndex !== null) {
+      setTimeout(() => {
+        const element = moduleRefs.current[newIndex]?.current;
+        if (element) {
+          const yOffset = -400;
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+      }, 200);
+    }
   };
 
-  // Toggle assessment
   const toggleAssessment = () => {
-    if (!chapter.unlocked) return; // Do nothing if chapter is locked
-    setIsAssessmentOpen(!isAssessmentOpen);
+    if (!chapter.unlocked) return;
+
+    const newState = !isAssessmentOpen;
+    setIsAssessmentOpen(newState);
+
+    if (newState) {
+      setTimeout(() => {
+        const element = assessmentRef.current;
+        if (element) {
+          const yOffset = -200;
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+      }, 200);
+    }
   };
+
+  useEffect(() => {
+    if (isActive && chapterRef.current) {
+      setTimeout(() => {
+        const yOffset = -100;
+        const y = chapterRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }, 200);
+    }
+  }, [isActive]);
 
   return (
-    <div
-      className={`chapter-container ${chapter.unlocked ? "unlocked" : "locked"
-        }`}
-    >
-      {/* Chapter Header */}
+    <div className={`chapter-container ${chapter.unlocked ? "unlocked" : "locked"}`} ref={chapterRef}>
       <div className="chapter-header" onClick={toggleDropdown}>
-        <h4 style={{ color: isOpen ? "violet" : "white" }}>
+        <h4 style={{ color: isActive ? "violet" : "white" }}>
           {chapter.title || chapter.name}
         </h4>
-        <span >
-          {isOpen ? "▲" : "▼"}
-        </span>
+        <span>{isActive ? "▲" : "▼"}</span>
       </div>
 
-      {/* Show Modules if Chapter is Open */}
-      {isOpen && (
+      {isActive && (
         <div className="chapter-content">
           {chapter.modules?.length > 0 ? (
-            chapter.modules.map((module, idx) => (
-              <div
-                key={idx}
-                className={`module-item ${module.unlocked ? "unlocked" : "locked"
-                  }`}
-              >
+            chapter.modules.map((module, idx) => {
+              if (!moduleRefs.current[idx]) {
+                moduleRefs.current[idx] = React.createRef();
+              }
+
+              return (
                 <div
-                  className={`module-header ${module.unlocked ? "" : "disabled"}`}
-                  onClick={() => handleModuleClick(idx)}
+                  key={idx}
+                  className={`module-item ${module.unlocked ? "unlocked" : "locked"}`}
                 >
-                  <span
-                    style={{ color: selectedModuleIndex === idx ? "violet" : "white" }}
+                  <div
+                    className={`module-header ${module.unlocked ? "" : "disabled"}`}
+                    onClick={() => handleModuleClick(idx)}
                   >
-                    📚 {module.name || module.title}
-                  </span>
-                  <span>
-                    {selectedModuleIndex === idx ? "▲" : "▼"}
-                  </span>
-                </div>
-
-
-                {/* Show Module Details if Clicked */}
-                {selectedModuleIndex === idx && (
-                  <div className="module-details-dropdown">
-                    <ModuleDetails
-                      module={module}
-                      unlockNextModule={unlockNextModule}
-                      chapterId={chapter.chapterId} // Pass chapterId to unlock module
-                      courseId={courseId} // Pass courseId to unlock module
-                    />
+                    <span style={{ color: selectedModuleIndex === idx ? "violet" : "white" }}>
+                      📚 {module.name || module.title}
+                    </span>
+                    <span>{selectedModuleIndex === idx ? "▲" : "▼"}</span>
                   </div>
-                )}
-              </div>
-            ))
+
+                  {selectedModuleIndex === idx && (
+                    <div className="module-details-dropdown" ref={moduleRefs.current[idx]}>
+                      <ModuleDetails
+                        module={module}
+                        unlockNextModule={unlockNextModule}
+                        chapterId={chapter.chapterId}
+                        courseId={courseId}
+                      />
+                    </div>
+                  )}
+                </div>
+              );
+            })
           ) : (
             <p>No modules available for this chapter.</p>
           )}
 
-          {/* Show Assessment at the End of Modules */}
           <div className="assessment-section">
             <div
-              className={`assessment-header ${chapter.unlocked ? "" : "disabled"
-                }`}
+              className={`assessment-header ${chapter.unlocked ? "" : "disabled"}`}
               onClick={toggleAssessment}
             >
               <span style={{ color: isAssessmentOpen ? "violet" : "white" }}>
-    🎯 Chapter Assessment
-  </span>
+                🎯 Chapter Assessment
+              </span>
               <span>{isAssessmentOpen ? "▲" : "▼"}</span>
             </div>
+
             {isAssessmentOpen && (
-              <div className="assessment-details">
+              <div className="assessment-details" ref={assessmentRef}>
                 <Assessment
                   assessment={chapter.assessment}
-                  unlockNextChapter={unlockNextChapter} // Pass unlock function to Assessment
-                  courseId={courseId} // Pass courseId
-                  chapterId={chapter.chapterId} // Pass chapterId
+                  unlockNextChapter={unlockNextChapter}
+                  courseId={courseId}
+                  chapterId={chapter.chapterId}
                 />
               </div>
             )}
